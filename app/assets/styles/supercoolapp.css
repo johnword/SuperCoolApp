@@ -1,0 +1,32 @@
+body {
+    padding-top: 100px;
+}
+
+.navbar-header {
+    display: block;
+    width: 30%;
+}
+
+@media (max-width: 970px) {
+    .navbar-header {
+        height: 100px;
+    }
+}
+
+@media (min-width: 970px) {
+
+    .navbar {
+        height: 100px;
+    }
+
+    .nav li a {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
